@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: 100;
+    background-color: #F1EDE2;
+}
+
+/* ***
+    Top logo
+*** */
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ***
+    Header
+*** */
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ACA78F;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 100;
+    color: #ACA78F;
+}
+
+/* Yolk wrapper */
+
+.yolkwrapper {
+    /*border: 1px solid red;*/
+    height: 150px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Runny */
+
+.runny {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.runny:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Soft */
+
+.soft {
+    display: inline-block;
+}
+
+.soft img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.soft img:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+/* Firm */
+
+.firm {
+    display: inline-block;
+}
+
+.firm img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.firm img:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+/* Hard */
+
+.hard {
+    display: inline-block;
+}
+
+.hard img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.hard img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-size: 70px;
+    color: #ACA78F;
+}
+
+/* Circle timer */
+
+.timer {
+    font-size: 70px;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/* Btns */
+
+.btnswrapper {
+    /*border: 1px solid red;*/
+    height: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* boil btn */
+
+.boilbtn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 1px solid #ACA78F;
+    border-radius: 50px;
+    width: 180px;
+    height: 60px;
+    /* text inside btn */
+    padding-top: 15px;
+    font-size: 25px;
+    color: #ACA78F;
+    text-align: center;
+}
+
+.boilbtn:hover {
+    cursor: pointer;
+    background-color: #F9D056;
+    border: 2px solid #F9D056;
+    color: #ffffff;
+}
+
+/* reset btn */
+
+.resetbtn {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+    border: 1px solid #ACA78F;
+    border-radius: 50px;
+    width: 180px;
+    height: 60px;
+    /* text inside btn */
+    padding-top: 15px;
+    font-size: 25px;
+    color: #ACA78F;
+    text-align: center;
+}
+
+.resetbtn:hover {
+    cursor: pointer;
+    background-color: #F9D056;
+    border: 2px solid #F9D056;
+    color: #ffffff;
+}

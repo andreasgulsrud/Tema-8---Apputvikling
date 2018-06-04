@@ -1,10 +1,58 @@
 <!DOCTYPE html>
-<html>
-	<head>
-    	<meta charset="utf-8">
-		<title>Hello Electron</title>
-	</head>
-	<body>
-		<h1>Hello Electron</h1>
-	</body>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eggometer</title>
+
+    <link rel="normalize" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="img/icon_white.png" alt="Application icon" height="100" />
+    </div>
+
+    <h1>Eggometer</h1>
+    <h2>Please select your preferred yolk and prepare your eggs for a dive</h2>
+    
+
+<div class="yolkwrapper">
+
+    <div class="runny">
+            <img src="img/runny.svg" alt="Choose for runny yolk" height="130" />
+    </div>
+
+    <div class="soft">
+        <img src="img/soft.svg" alt="Choose for soft yolk" height="100" />
+    </div>
+
+    <div class="firm">
+        <img src="img/firm.svg" alt="Choose for firm yolk" height="100" />
+    </div>
+    
+    <div class="hard">
+            <img src="img/hard.svg" alt="Choose for hard yolk" height="100" />
+    </div>
+
+</div>
+
+    <p class="timer">Tick tock</p>
+
+<div class="btnswrapper">
+    <div class="boilbtn">Let's boil</div>
+    <div class="resetbtn">Reset</div>
+</div>
+
+
+<script src="js/application.js"></script>
+</body>
 </html>
+

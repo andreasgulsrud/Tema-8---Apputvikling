@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"
+    "pack": "electron-packager . --icon \"app_icons/app-icon.icns\" --overwrite"
   },
   "author": "Olivier Klaver",
   "license": "MIT",

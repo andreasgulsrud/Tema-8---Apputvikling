@@ -2,6 +2,7 @@
 var electron = require('electron');
 var app = electron.app;
 var BrowserWindow = electron.BrowserWindow;
+var Tray = electron.Tray;
 
 var path = require('path');
 var url = require('url');
@@ -16,8 +17,13 @@ function createWindow() {
     win = new BrowserWindow({
         width: 965,
         height: 800,
-        resizable: false
+        resizable: false,
+        frame: false
     })
+
+    // Add Tray icon
+    var iconPath = path.join(__dirname, 'app_icons/appicon2.png')
+    var tray = new Tray(iconPath);
 
     // and load the index.html of the app.
     win.loadURL(url.format({
@@ -27,7 +33,7 @@ function createWindow() {
     }));
 
     // Open the DevTools.
-    //win.webContents.openDevTools()
+    win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', function () {
