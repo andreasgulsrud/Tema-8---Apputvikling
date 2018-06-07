@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>soft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="soft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#FFDB6E" id="Oval-6">
+            <circle cx="75" cy="75" r="75"></circle>
+        </g>
+        <text id="Soft" font-family="Roboto-Thin, Roboto" font-size="36" font-style="condensed" font-weight="300" fill="#000000">
+            <tspan x="43.0869141" y="84">Soft</tspan>
+        </text>
+    </g>
+</svg>
