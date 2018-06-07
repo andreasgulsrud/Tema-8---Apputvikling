@@ -11,7 +11,7 @@
     "start": "electron .",
     "pack": "electron-packager . --icon \"app_icons/app-icon.icns\" --overwrite"
   },
-  "author": "Olivier Klaver",
+  "author": "Andreas Gulsrud",
   "license": "MIT",
   "dependencies": {
     "electron": "^1.6.7",
